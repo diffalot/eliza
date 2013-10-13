@@ -1,0 +1,15 @@
+{
+  "name": "eliza",
+  "version": "0.0.0",
+  "description": "an Eliza for twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "eliza": "git://github.com/diffalot/node-eliza"
+  },
+  "bin": { "eliza": "./index.js" }
+}
